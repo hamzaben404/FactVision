@@ -1,0 +1,15 @@
+flask==3.1.0
+tensorflow==2.17.0  # Use tensorflow-cpu if GPU is not needed
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.1
+requests==2.32.3
+tqdm==4.67.1
+joblib==1.4.2
+protobuf==4.25.3
+transformers==4.46.1
+huggingface-hub==0.27.1
+spacy==3.7.2
+gunicorn==22.0.0  # Useful for deployment
+scikit-learn==1.4.2  # Explicitly added for joblib support
+wheel

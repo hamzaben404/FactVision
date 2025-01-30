@@ -1,0 +1,9 @@
+# Ignore model and data files
+*.npy
+*.csv
+data/raw/
+data/processed/
+logistic_regression.pkl
+naive_bayes.pkl
+support_vector_machine.pkl
+xgboost.pkl
