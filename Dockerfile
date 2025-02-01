@@ -26,7 +26,7 @@ COPY src src
 COPY models models  
 
 # Expose the application port
-EXPOSE 5000 
+EXPOSE 5001 
 
-# Run the application
-CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "src.api:app"]
+# Run the application using Gunicorn with 4 workers
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5001", "src.api:app"]
