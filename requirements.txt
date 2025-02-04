@@ -13,5 +13,7 @@ spacy==3.7.2
 gunicorn==22.0.0  # Useful for deployment
 scikit-learn==1.5.2
 wheel
+prometheus-flask-exporter==0.18.1
+
 
 
